@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+    box-shadow: 2px 2px 2px #000;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg1
+{
+    background-image: url("images/1.jpg");
+    height: 100vh;
+}
+.bg2
+{
+    background-image: url("images/2.jpg");
+    height: 600px;
+}
+.bg3
+{
+    background-image: url("images/3.jpg");
+    height: 100vh;
+}
+.bg4
+{
+    background-image: url("images/4.jpg");
+    height: 600px;
+}
+.bg5
+{
+    background-image: url("images/5.jpg");
+    height: 100vh;
+}
